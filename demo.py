@@ -40,5 +40,5 @@ data = [{
 }]
 
 mapper = FwfMapper(width_mapping, trailing, field_mapping, data)
-print(mapper.is_valid())
+print(mapper.is_all_mapped())
 print(mapper.get_result())
